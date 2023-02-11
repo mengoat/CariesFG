@@ -152,7 +152,7 @@ class DPS(nn.Module):
 
         return selected_features
 
-class GCN(nn.Module):
+class GCA(nn.Module):
 
     def __init__(self,
                  num_joints: int,
